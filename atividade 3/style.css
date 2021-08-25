@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5F7285;
+    margin: 0;
+    padding: 0%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: ;
+}
+
+header h1{
+    text-align: center;
+    font-size: 105px;
+    color: #FFF;
+    opacity: 0.5;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Varela Round', sans-serif;
+    color: #FFF;
+}
+
+img{
+    width: 30vw;
+    border: inset 3px #855f5f;
+}
+
+
+.img1, .img2{
+    height: 30vh;
+    width: 30vw;
+    border: inset 3px #855f5f;
+}
+
+#imagem{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    padding: auto;
+}
+
+p, #sobre{
+    font-size: 14px;
+
+    width: 50vw;
+    align-items: center;
+    
+    color: #FFF;
+}
+
+footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #855f72;
+    text-align: center;
+}
+
+.botao-dg{
+    background-color: #829DAD;
+    border: 2px solid #829DAD;
+}
+
+.botao-dg:hover{
+    color: #36B0E0;
+}
+
+@media (min-width:320px) and (max-width:1024px){
+    
+    header h1, h2{
+        text-align: center;
+        font-size: 2vh;
+    }
+
+    #imagem{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img1, #img2{
+        width: 50vw;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1{
+        width: 70vw;
+    }
+
+    #imagem{
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+    background-color: aliceblue;
+}
+
+header h1{
+    margin: 0%;
+    padding: 25px;
+    text-align: center;
+}
+
+aside p{
+    text-align: center;
+    color: rgb(122, 122, 122);
+
+    margin: 1%;
+}
+ 
+header{
+    height: 9vh;
+    width: 100vw;
+    background-color: coral;
+}
+
+#container{
+    margin: 0 auto;
+    width: 90vw;
+}
+
+#img1, #img2{
+    display: inline-block;
+}
+
+
+#imagens{
+    width: 580px;
+    margin: auto;
+}
+
+.imagens{
+    height: 200px;
+}
+
+#intro, #historia, #religiao, #culinaria, #cultura{
+    margin: 0 auto;
+}
+
+footer{
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    background-color: coral;
+}
+
+footer p{
+    margin: 0%;
+    padding-top: 10px;
+}
+
+@media (max-width:600px){
+
+    header{
+        width: 100vw;
+    }
+
+    .imagens{
+        width: 90vw;
+    }
+
+    #imagens{
+        width: 90vw;
+    }
+
+    footer{
+        height: 9vh;
+    }
+}
+
+
